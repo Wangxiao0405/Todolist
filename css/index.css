@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background: #cdcdcd;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #323232;
+}
+header .container{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+header .container h2{
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    color: #DDD;
+    line-height: 50px;
+    text-align: center;
+    font-weight: normal;
+    float: left;
+    cursor: pointer;
+}
+header .container input{
+    width: 360px;
+    height: 26px;
+    background: #fff;
+    outline: none;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    text-indent:1em;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+}
+header .container input::-webkit-input-placeholder{
+    font-size: 12px;
+    color: #757575;
+}
+.content{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+.content .con{
+    width: auto;
+    height: auto;
+}
+.content .top{
+    width: auto;
+    height: 71px;
+}
+.content .top h2{
+    font-size: 24px;
+    color: #000;
+    line-height: 71px;
+
+}
+.content .top h2 .num{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    border-radius: 10px;
+    padding: 0 5px;
+    background: #e6e6fa;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.content .obj{
+    width: auto;
+    height: 32px;
+    background: white;
+    border-left: 5px solid darkgreen;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: move;
+}
+.content .obj .input{
+    width:22px;
+    height: 22px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+.content .obj p{
+    width:500px;
+    height: 100%;
+    float: left;
+    line-height: 32px;
+    font-size: 16px;
+    color: #333;
+}
+.content .obj .del{
+    width: 20px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 5px;
+    float: left;
+    border: 3px solid darkgreen;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.content .obj .del::before{
+    content:"-";
+    width: 14px;
+    height: 12px;
+    background: darkgreen;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    display: block;
+    font-size: 3px;
+    color: white;;
+    line-height: 12px;
+    text-align: center;
+
+}
+.content .con1 .obj{
+    border-color: #757575;
+    opacity: 0.6;
+}
+.content .con1 .obj .del{
+    border-color: #757575;
+}
+.content .con1 .obj .del::before{
+    background: #757575;
+}
